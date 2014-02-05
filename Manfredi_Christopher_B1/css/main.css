@@ -25,43 +25,43 @@ p {
 }
 
 .article { 
-color:#06F;
-width:98%;
+	color:#06F;
+	width:98%;
 }
 
 #nav ul {
-  margin: 1% 20% 15% 35%;
-  padding: 0px;
-  list-style-type: none;
-  width: auto;
-  position:absolute;
-  display: block;
-  height: 30px;
-  font-size: 12px;
-  font-weight: bold;
-  background:url(../images/nav_bg.png);
-  font-family: Arial, Helvetica, sans-serif;
+ 	margin: 1% 20% 15% 35%;
+  	padding: 0px;
+  	list-style-type: none;
+  	width: auto;
+  	position:absolute;
+  	display: block;
+  	height: 30px;
+  	font-size: 12px;
+  	font-weight: bold;
+  	background:url(../images/nav_bg.png);
+  	font-family: Arial, Helvetica, sans-serif;
 }
 
 #nav li {
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
+  	display: block;
+  	float: left;
+  	margin: 0;
+  	padding: 0;
 }
 
 #nav li a {
-  display: block;
-  float: left;
-  color: #FFFFFF;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 8px 20px 0 20px;
+  	display: block;
+  	float: left;
+  	color: #FFFFFF;
+  	text-decoration: none;
+  	font-weight: bold;
+  	padding: 8px 20px 0 20px;
 }
 
 #nav li a:hover {
-  color: #FF0;
-  height: 22px;
+  	color: #FF0;
+  	height: 22px;
 }
 
 #nav li.active a {
