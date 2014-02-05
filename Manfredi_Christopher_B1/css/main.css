@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-image:url(../images/background.jpg);
+	background-repeat:repeat;
+
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	clear: none;
+}
+
+p {
+	color:#000;
+	width:27%;
+	border:1px solid #666;
+	float:left;
+    margin:70px 35px 10px 10px;
+    padding:10px 10px 10px 10px;
+    background-color:#CCC;
+    border-radius:5px;
+	text-align:center;
+	
+}
+
+.article { 
+color:#06F;
+width:98%;
+}
+
+#nav ul {
+  margin: 1% 20% 15% 35%;
+  padding: 0px;
+  list-style-type: none;
+  width: auto;
+  position:absolute;
+  display: block;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  background:url(../images/nav_bg.png);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li a {
+  display: block;
+  float: left;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 20px 0 20px;
+}
+
+#nav li a:hover {
+  color: #FF0;
+  height: 22px;
+}
+
+#nav li.active a {
+  	display: inline;
+  	height: 22px;
+  	float: left;
+  	margin: 0;
+}
+
+<!--- Structural Pseudo-Classes --->
+
+p:hover {
+	color:#03F;
+}
+
+a:link {
+	color:#F39;
+	border: 2px solid green;
+}
+
+a:visited {
+	color:#3C0;
+}
+
+a:active {
+	color:#C60;
+
+}
+
+p:first-letter {
+	font-size:200%;
+	color:#0C0;
+}
+
+p:first-line {
+	color:#0C0;
+}
+
+p:first-child {
+	background-color:yellow;
+}
+
+input:focus {
+	background-color:#FF0;
+}
+
+p:before {
+	content:'Can you read this?"';
+}
+
+p:after {
+	content:'"';
+}
+
+p:lang {
+    font-family: Latha, "Tamil MN", serif;
+    font-size: 60%;
+}
+
+<!--- End Structural Pseudo-Classes ---> 
+
+a[href^="http"] {
+	background:#ffff00;
+
+}
+
+img[src$=".jpg"] {
+	border: 5px solid green;
+	margin:0 30% 0 30%;
+}
+
+a[href*=""] {
+	border: 3px solid blue;
+}
+
+a[target=_blank] {
+	background-color:green;
+
+}
+
+[title~=water]{
+	border:5px solid yellow;
+
+}
+
+[lang|=en]{
+	background:yellow;
+
+}
+
+a[target] {
+	background-color:purple;
+	color:#FF3;
+}
+
+form {
+	background-color:#666;
+	text-align:center;
+	display:inline;
+
+}
