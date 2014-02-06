@@ -57,7 +57,7 @@ p {
   	color: #FFFFFF;
   	text-decoration: none;
   	font-weight: bold;
-  	padding: 8px 20px 0 20px;
+  	padding: 0.667em 1.667em 0.000em 1.667em;
 }
 
 #nav li a:hover {
@@ -80,7 +80,7 @@ p:hover {
 
 a:link {
 	color:#F39;
-	border: 2px solid green;
+	border: 0.100em solid green;
 }
 
 a:visited {
