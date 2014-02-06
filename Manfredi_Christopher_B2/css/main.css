@@ -80,7 +80,7 @@ p:hover {
 
 a:link {
 	color:#F39;
-	border: 2px solid green;
+	border: 0.100em solid green;
 }
 
 a:visited {
